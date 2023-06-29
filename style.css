@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    font-size: larger;
+    font-family: sans-serif;
+
+    width: 100%;
+    height: 90px;
+    align-items: center;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 5px;
+
+}
+
+ul {
+    width: 65%;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.sub_button {
+    color: black;
+    border-radius: 8px;
+    height: 35px;
+    background-color: brown;
+    color: white;
+    width: 80px;
+
+}
+
+.search-box {
+    width: 210px;
+    height: 28px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.sub_button:hover {
+
+    border: 2px solid white;
+
+}
+
+.second {
+    background-image: url("https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2000&q=900");
+    display: flex;
+    animation: zoom_hero 15s linear;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 80%;
+    font-family: sans-serif;
+    overflow: auto;
+
+
+}
+
+.second {
+    width: 100%;
+    height: 407px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px green;
+}
+
+.tiger-box {
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(211, 90, 46);
+}
+
+.tiger-right {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 89, 32);
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tiger-box .tiger-right h1 {
+    margin-top: 20px;
+}
+
+.tiger-right .text {
+    font-size: 25px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding: 50px;
+
+}
+
+.tiger-right .clk-btn {
+
+
+    box-sizing: border-box;
+    margin-top: 50px;
+    background-color: white;
+    color: white;
+    width: 150px;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+    transition: transform 2s;
+}
+
+.tiger-right .clk-btn:hover {
+    transform: scale(0.95);
+}
+
+
+
+.tiger-right .clk-btn a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.box3 {
+    margin-top: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0y-0LF45oTZhtIaVQEVFlrbwl90lMAFas7A&usqp=CAU");
+   
+    
+}
+
+.box-3 h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #444;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.box-3 .cards {
+    display: flex;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.box-3 .cards .card1 {
+
+    margin: 10px;
+}
+
+.box-3 .cards .card2 {
+
+    margin: 10px;
+}
+
+.box-3 .cards .card3 {
+
+    margin: 10px;
+}
+
+.box-3 .cards img {
+
+    margin-left: 60px;
+    transition: transform 0.8s;
+    margin-bottom: 10px;
+}
+
+.box-3 .cards img:hover {
+    transform: scale(1.03);
+}
+
+.box-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Polar_bear_mother_and_cubs_on_ice/2000x580_hash/74z7uceulg_Medium_WW294897.jpg");
+    height: 580px;
+
+}
+
+.box-4 .content {
+
+    width: 500px;
+    height: 400px;
+
+    box-sizing: border-box;
+    padding: 38px;
+    background-color: #f6f5f2;
+    color: Black;
+    margin-left: 1000px;
+    margin-top: 20px;
+    font-family: sans-serif
+}
+
+.box-4 .content p {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box4 button {
+    margin-top: 50px;
+}
+
+.box-4 a {
+    text-decoration: none;
+}
+
+.box-4 a:hover {
+    text-decoration: underline;
+}
+
+.img-content {
+    display: grid;
+    grid-template-columns: 480px 480px auto;
+    grid-template-rows: repeat(6, 100px);
+    margin: 80px 20px 50px 60px;
+    column-gap: 10px;
+    
+
+
+}
+
+.img-content p{
+    display: inline-block;
+    box-sizing: border-box;
+    width:350px;
+    color: #444;
+    margin-left:10px ;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.img-content img {
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(255, 123, 0);
+    margin-right: 10px;
+    box-shadow: 5px 5px #444;
+}
+
+
+
+/* .img-content p {
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    width: fit-content;
+    box-sizing: border-box;
+    display: inline-block;
+   
+
+
+} */
+
+
+
+
+.box-5 {
+    margin-top: 50px;
+}
+
+.box-5 h2 {
+    margin-left: 100px;
+    font-family: sans-serif;
+    color: #444;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.box-5-p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    color: #444;
+    font-size: 20px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.box-0 {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    grid-template-rows: 300px 400px;
+    column-gap: 150px;
+   
+    box-sizing: border-box;
+    padding:50px;
+   
+    width:fit-content;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0y-0LF45oTZhtIaVQEVFlrbwl90lMAFas7A&usqp=CAU" ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+
+.box-0 .txt2 h1{
+    display:inline-block;
+    color: orangered;
+    font-family: sans-serif;
+    font-size: 50px;
+    
+}
+
+.box-0 .txt2 p{
+    display: inline-block;
+    box-sizing: border-box;
+    padding:18px 18px 18px 25px;
+    color:#444;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left:5px;
+}
+
+.box-0 .txt2 .large-txt{
+    box-sizing: border-box;
+    width:80%;
+    margin-top:10px;
+    
+}
+    .box-0 .text1 h1{
+    text-decoration: underline;
+    margin:15px;
+    line-height: 10px;  
+    color:#444;
+    font-family: sans-serif;  
+    }
+
+   .box-0 p{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-family: sans-serif;
+   } 
+
+   .box-0 button{
+    margin-left:20px;
+
+   }
+
+   
+   .img-content p::after{
+    content:'';
+    display: block;
+    width:0%;
+    height:2px;
+    background-color: orangered;
+    transition:0.5s all;
+   }
+
+   .img-content p:hover::after{
+    width:100%;
+   
+   }
+
+   .img-content p:hover{
+    cursor: pointer;
+    color: orangered;
+
+   }
+   .box-6{
+    height:fit-content;
+    width:100%;
+    background-color: #d55c19;
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    column-gap: 200px;
+   }
+
+   .box-6 img{
+    margin-left:200px;
+    
+   }
+
+   .box-6 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:white;
+    font-family: sans-serif;
+   }
+   .box-6 h1{
+    font-size: 45px;
+   }
+
+   .box-6 h3{
+    margin-top:8px;
+    font-size: 25px;
+    margin-bottom: 30px;
+   }
+   .box-6 p{
+    width:240px;
+    height:60px;
+    border:2px solid white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+.box-6 p:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+.box-7{
+
+margin-top:50px;
+height: 300px;
+
+margin-left:80px;
+display: grid;
+grid-template-columns: repeat(4,250px);
+grid-template-rows: repeat(4,250px);
+column-gap: 100px;
+font-family: sans-serif;
+}
+
+.box-7 h3::after{
+content: '';
+display: block;
+width:100%;
+height:3px;
+background-color: black;
+margin-bottom: 30px;
+}
+.box-7 p{
+font-size: 20px;
+}
+
+.box-7 p:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+.box-8{
+background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Birthday_cake/1440x580_hash/4lw35mkntp_shutterstock_1686149521.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+width:100%;
+}
+
+.box-8 .content{
+background:#f6f5f2 url(/assets/content/texture-beige-cbf6683d8b746df3567bb6ca9f9d0edef156e81fbe7f222abf49d697d6f80f2d.png);
+width:550px;
+height:350px;
+position:relative;
+top:50px;
+left: 38px;
+box-sizing: border-box;
+padding:20px;
+font-family: sans-serif;
+}
+
+.box-8 h1::before{
+content: '';
+display: block;
+background: #d55c19;
+width:40px;
+height:3px;
+}
+
+.box-8 p{
+margin-top:40px;
+font-size: 21px;
+width:300px;
+}
+
+.box-8 .btn{
+width:180px;
+border:none;
+background-color: #d55c19;
+color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding:8px;
+border-radius:8px;
+}
+
+.box-8 .btn:hover{
+text-decoration: underline;
+
+}
+
+.fade_in{
+    animation:fade 0.8s ease;
+}
+
+.botm1{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 550px;
+    background-color: black;
+    font-family: sans-serif;
+    color:white;
+    column-gap: 25px;
+    margin:auto;
+    padding: 25px;
+   
+}
+
+.botm1 .content ul{
+    list-style: none; 
+    line-height: 20px;
+    margin-top:30px; 
+   
+}
+
+.botm1 .content li:hover{
+    color:red;
+    cursor: pointer;
+}
+
+.botm1 .content{
+    display: flex;
+   
+}
+.botm1 li{
+    line-height: 32px;
+}
+
+form{
+    line-height: 30px;
+    position:relative;
+    left:150px;
+    top:30px;
+    width:450px;
+    
+    
+}
+
+
+input{
+    width:90%;
+    height:25px;
+}
+
+.botm1 p{
+    margin:15px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+

@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding: 0;
+    /* background-image: url("https://source.unsplash.com/random/nautre");
+    background-size:auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+     */
+
+}
+.b1{
+    height: 200px;
+    width:200px;
+    box-sizing: border-box;
+    border:2px inset #888;
+    box-shadow: 2px 2px 2px black;
+    border-radius:10px;
+    
+    padding: 5px;
+    background-color:rgb(5, 0, 0 ,0.2);
+    float: left;
+    clear: right;
+    margin:0 12px 5px 0;
+    color:white;
+    font-size: x-large;
+    
+}
+
+.b2{
+    height: 200px;
+    width:300px;
+    box-sizing: border-box;
+    border:2px inset #888;
+    box-shadow: 22px 20px 51px 2px #888;
+    border-radius:10px;
+    
+    padding: 5px;
+    background-color: rgb(22, 120, 139,0.2);
+    clear:left;
+    
+}
+
